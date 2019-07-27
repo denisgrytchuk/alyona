@@ -1,0 +1,44 @@
+
+extends layout
+
+block content
+    .main
+        .row
+            .info
+                img(src='/img/main/IMG_1718.jpg', style='width:50%' )
+                div
+                    p(class="trans" key='about_t') I am a creative and energetic photographer who never sits on the spot. Always open to new and unknown. I love to make reportage events, night city landscapes, architectural beauty and portraits
+                div
+                    p dykyjhutsul@gmail.com
+                div
+                    a(href='https://www.instagram.com/dykyjhutsul/') Instagram
+                div
+                    a(href='https://www.facebook.com/dykyjhutsul1') Facebook
+                div
+                    a(href='https://t.me/dykyjhutsul') Telegram
+                div
+                    a(href='https://www.linkedin.com/in/%D0%B4%D0%B5%D0%BD%D0%B8%D1%81-%D0%B3%D1%80%D0%B8%D1%82%D1%87%D1%83%D0%BA-a79294171/') Linkedin
+
+            .containe
+                p(class="trans" key='feedback') Зворотній зв'язок
+                form(method='POST', action='/contact/')
+                    .form-group
+                        label(class="trans" key='name') Name
+                        input.form-control(class="trans", name='name', type='text',key='name_p', placeholder='Your name..')
+                    .form-group
+                        label(class="trans" key='surname') Surname
+                        input.form-control(class="trans", name='lastname', type='text',key='surname_p', placeholder='Your surname..')
+                    .form-group
+                        label(class="trans" key='email') Email
+                        input.form-control(class="trans", name='email', type='text',key='email_p', placeholder='Your email..')
+                    .form-group
+                        label(class="trans" key='phone') Phone
+                        input.form-control(class="trans", type='text', name='phone',key='phone_p', placeholder='Your number..')
+                    .form-group
+                        label(class="trans" key='subject') Subject
+                        textarea(class="trans", name='subject',key='subject_p', placeholder='Write something..', style='height:200px')
+                    br
+                    input.btn.btn-primary(type='submit', value='Submit', key='submit')
+
+
+

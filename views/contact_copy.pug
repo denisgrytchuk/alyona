@@ -1,0 +1,89 @@
+doctype html
+html
+    head
+        title Page Title
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet' href='/css/photo.css')
+
+    body
+        // Note
+        //div(style='background:yellow;padding:5px')
+            h4(style='text-align:center') Resize the browser window to see the responsive effect.
+        // Header
+        .header
+                img(src='/img/main/logo.png', style='width:100%')
+        // Navigation Bar
+        .navbar
+            div
+                a(href='/main') Main
+            div(class='drop')
+                a(class='dropbtn' href='/photo') Photo
+                    .dropdown-content
+                        a(href='/photo') Photography
+                        a(href='/photo') Photo
+                        a(href='/photo') Photo
+                        a(href='/photo') Photography
+                        a(href='/photo') Дуже багато тут тексту
+                        a(href='/photo') Тай таке!
+                        a(href='/photo') Photography
+                        a(href='/photo') Photo
+                        a(href='/photo') Photo
+                        a(href='/photo') Photography
+                        a(href='/photo') Дуже багато тут тексту
+                        a(href='/photo') Тай таке!
+
+            div
+                a(href='/video') Video
+            div
+                a(href='/contact') Contact
+        // The flexible grid (content)
+        .content
+            .main
+                .row
+                    .containe
+                        form(action='#')
+                            label(for='fname') First Name
+                            input#fname(type='text', name='firstname', placeholder='Your name..')
+                            label(for='lname') Last Name
+                            input#lname(type='text', name='lastname', placeholder='Your last name..')
+                            label(for='email') Email
+                            input#email(type='text', name='email', placeholder='Your email..')
+                            label(for='phone') Phone
+                            input#phone(type='text', name='phone', placeholder='Your number..')
+                            label(for='subject') Subject
+                            textarea#subject(name='subject', placeholder='Write something..', style='height:200px')
+                            input(type='submit', value='Submit')
+                    .info
+                        img(src='/img/main/IMG_1718.jpg', style='width:50%' )
+                        div
+                            p Молодий і креативний фотограф
+                        div
+                            p dykyjhutsul@gmail.com
+                        div
+                            a(href='https://www.instagram.com/dykyjhutsul/') Instagram
+                        div
+                            a(href='https://www.facebook.com/dykyjhutsul1') Facebook
+                        div
+                            a(href='https://t.me/dykyjhutsul') Telegram
+                        div
+                            a(href='https://www.linkedin.com/in/%D0%B4%D0%B5%D0%BD%D0%B8%D1%81-%D0%B3%D1%80%D0%B8%D1%82%D1%87%D1%83%D0%BA-a79294171/') Linkedin
+        // Footer
+        .footer
+            .row
+                .column
+                    a(href='https://www.linkedin.com/in/%D0%B4%D0%B5%D0%BD%D0%B8%D1%81-%D0%B3%D1%80%D0%B8%D1%82%D1%87%D1%83%D0%BA-a79294171/')
+                        img(src="/img/main/1.png", style='width:20%')
+                .column
+                    a(href='https://t.me/dykyjhutsul')
+                        img(src="/img/main/2.png", style='width:20%')
+                .column
+                    a(href='https://www.instagram.com/dykyjhutsul/')
+                        img(src="/img/main/3.png", style='width:20%')
+                .column
+                    a(href='https://www.facebook.com/dykyjhutsul1')
+                        img(src="/img/main/4.png", style='width:20%')
+        script(src='/bower_components/jquery/dist/jquery.min.js')
+        script(src='/js/photo.js')
+
+

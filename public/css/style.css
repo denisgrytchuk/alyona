@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header div{
+	height: 100vh;
+	width: auto;
+	text-align: center;
+}
+
+header div img{
+	height: 90%;
+}
+
+main{
+	
+	text-align: center;
+}
+
+.recepie{
+	width:80%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+/*	margin-top:5%;*/
+	margin: 5% auto;
+	font-size: 26px;
+}
+
+main ul{
+	list-style-type: circle;
+	text-align: left;
+}
+
+.recepie p{
+	text-align: left;
+}
+
+.ITrecepie{
+	
+	margin: 0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 26px;
+	background-color: #FEFFDC;
+}
+
+.ITrecepie div{
+/*	border: 1px solid black;*/
+	width:80%;
+	margin: 0 auto;
+	
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.dance{
+	margin:0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 26px;
+	background-color: #DCDDFF;
+}
+
+.dance div{
+/*	border: 1px solid black;*/
+	width:80%;
+	margin: 0 auto;
+	
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+.row{
+	flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+
+
+.row div img{
+	width: 100%
+}
+
+.memes{
+	display: flex;
+    flex-wrap: wrap;
+    padding: 0 1px;
+}
+
+.how{
+	margin: 0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 26px;
+	background-color: #F8DCFF;
+}
+
+.how div{
+	width:80%;
+	margin: 0 auto;
+	
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.wish{
+	padding: 5%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 50px;
+}

@@ -1,0 +1,39 @@
+extends layout
+
+block content
+            .main
+
+                .title
+                    h1 Портрентна зйомка
+                    p Resize the browser window to see the responsive effect.
+                // Photo Grid
+                .row
+                    .column-video
+                        video(width='100%', height='100%', controls='')
+                            source(src='/video/brole/MVI_1115_4.mp4', type='video/mp4')
+                            | Your browser does not support the video tag.
+                    .column-video
+                        video(width='100%', height='100%', controls='')
+                            source(src='/video/brole/MVI_2412.mp4', type='video/mp4')
+                            | Your browser does not support the video tag.
+                .title
+                    h1 Responsive Image Grid
+                    p Resize the browser window to see the responsive effect.
+                // Photo Grid
+                .row
+                    .column-video
+                        video(width='100%', height='100%', controls='')
+                            source(src='/video/timelaps/I0MG_9991.mp4', type='video/mp4')
+                            | Your browser does not support the video tag.
+                    .column-video
+                        video(width='100%', height='100%', controls='')
+                            source(src='/video/timelaps/IMG_0212_1.mp4', type='video/mp4')
+                            | Your browser does not support the video tag.
+                    .column-video
+                        video(width='100%', height='100%', controls='')
+                            source(src='/video/timelaps/IMG_0454_1.mp4', type='video/mp4')
+                            | Your browser does not support the video tag.
+                    .column-video
+                        video(width='100%', height='100%', controls='')
+                            source(src='/video/timelaps/IMG_0649_1.mp4', type='video/mp4')
+                            | Your browser does not support the video tag.
